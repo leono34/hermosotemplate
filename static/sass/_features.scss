@@ -1,0 +1,44 @@
+.feature{
+    .box{
+        height: 100vh;
+        width: 100%;
+    }
+    h2{
+        margin-top: 130px;
+    }
+    h2::after{
+        content: '';
+        background: $color1;
+        display: block;
+        height: 3px;
+        width: 170px;
+        margin: 10px auto 50px;
+        position: absolute;
+        left: 17px;
+    }
+    ul{
+        margin-top: 30px;
+        margin-left: 50px;
+        list-style-type: none;
+
+        li{
+            line-height: 40px;
+            font-size: 14px;
+            position: relative;
+        }
+    }
+    ul li::after{
+        content: '';
+        height: 7px;
+        width: 7px;
+        background: $color1;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 17px;
+        left:-25px;
+         
+    }
+    img{
+        margin-top: 190px;
+    }
+}

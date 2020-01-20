@@ -1,0 +1,339 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*globasles*/
+/*colores*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.servicio, .features, .footer {
+  margin-top: 10%;
+}
+
+.header {
+  margin-bottom: 100px;
+}
+
+.box .dog {
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.menu img {
+  height: 35px;
+  margin: 20px 0 0 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+}
+
+.menu button {
+  padding: 5px 28px;
+  background: #ff4d73;
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+.menu button .fa {
+  margin-right: 10px;
+}
+
+.ban-text {
+  width: 80%;
+  color: black;
+  position: absolute;
+  top: 35%;
+  margin: 0 10%;
+  text-align: center;
+}
+
+.ban-text h2 {
+  margin-top: 50px;
+  font-size: 64px;
+}
+
+.ban-text p {
+  font-size: 14px;
+  margin: 20px 0 50px;
+}
+
+.ban-text a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #ff4d73;
+  border-radius: 50%;
+  display: block;
+  padding: 10px;
+  width: 120px;
+  margin: auto;
+  background: #ff4d73;
+}
+
+.ban-text a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+}
+
+.servicios .box {
+  background: #bea7a7;
+  height: 100vh;
+  width: 100%;
+}
+
+.servicios h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.servicios h1::after {
+  content: '';
+  background: #ff4d73;
+  display: block;
+  height: 3px;
+  width: 210px;
+  margin: 20px auto 50px;
+}
+
+.servicios .icon {
+  font-size: 30px;
+  margin: 20px auto;
+  padding: 18px;
+  height: 70px;
+  width: 70px;
+  border: 1px solid #ff4d73;
+  border-radius: 50%;
+  color: #ff4d73;
+}
+
+.servicios p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #777;
+  padding: 20px;
+}
+
+.servicios span {
+  color: #ff4d73;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.servicios .col-md-3:hover {
+  background: #ff4d73;
+  cursor: pointer;
+  color: #fff;
+  -webkit-box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.servicios .col-md-3:hover .icon {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.servicios .col-md-3:hover p {
+  color: #fff;
+}
+
+.servicios .col-md-3:hover span {
+  color: #fff;
+}
+
+.feature .box {
+  height: 100vh;
+  width: 100%;
+}
+
+.feature h2 {
+  margin-top: 130px;
+}
+
+.feature h2::after {
+  content: '';
+  background: #ff4d73;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 10px auto 50px;
+  position: absolute;
+  left: 17px;
+}
+
+.feature ul {
+  margin-top: 30px;
+  margin-left: 50px;
+  list-style-type: none;
+}
+
+.feature ul li {
+  line-height: 40px;
+  font-size: 14px;
+  position: relative;
+}
+
+.feature ul li::after {
+  content: '';
+  height: 7px;
+  width: 7px;
+  background: #ff4d73;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  top: 17px;
+  left: -25px;
+}
+
+.feature img {
+  margin-top: 190px;
+}
+
+.footer .box {
+  height: 100vh;
+  width: 100%;
+}
+
+.footer h1 {
+  text-align: center;
+  padding: 50px;
+}
+
+.footer h1::after {
+  content: "";
+  background: #ff4d73;
+  display: block;
+  height: 3px;
+  width: 200px;
+  margin: 10px auto 50px;
+  text-align: center;
+  left: 170px;
+}
+
+.footer .row .contact-form {
+  padding: 15px;
+}
+
+.footer .row .contact-form .form-control {
+  border-radius: 0;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.footer .row .contact-form ::-webkit-input-placeholder {
+  font-size: 17px;
+}
+
+.footer .row .contact-form :-ms-input-placeholder {
+  font-size: 17px;
+}
+
+.footer .row .contact-form ::-ms-input-placeholder {
+  font-size: 17px;
+}
+
+.footer .row .contact-form ::placeholder {
+  font-size: 17px;
+}
+
+.footer .row .contact-form button {
+  border: none;
+  background: #ff4d73;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0;
+}
+
+.footer .contact-info .follow {
+  background: #fff;
+  padding: 8px;
+  margin: 15px;
+}
+
+.footer .contact-info .fa {
+  margin: 10px;
+  font-size: 20px;
+  color: #ff4d73;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.footer .contact-info span {
+  font-size: 14px;
+}
+
+.footer .row .copy {
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer .row .copy .fa-heart-o {
+  color: red;
+  font-size: 17px;
+}
+
+.footer .row hr {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=main.css.map */

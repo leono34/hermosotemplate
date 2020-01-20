@@ -1,0 +1,58 @@
+.servicios{
+    .box{
+        background:$color4;
+        height: 100vh;
+        width: 100%;
+    }
+    h1{
+        text-align: $posicion;
+        padding-top: 100px;
+    }
+    h1::after{
+        content: '';
+        background: $color1;
+        display: block;
+        height: 3px;
+        width: 210px;
+        margin: 20px auto 50px;
+    }
+.icon{
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 18px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid $color1;
+    border-radius: 50%;
+    color: $color1;
+}
+p{
+    font-size: 12px;
+    margin-top: 10px;
+    color:#777;
+    padding: 20px ;
+}
+span{
+    color: $color1;
+    transition: .5s;
+}
+ .col-md-3:hover{
+    background: $color1;
+    cursor: pointer;
+    color:$color2;
+    box-shadow:-5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition: .5s;
+    .icon {
+        border: 1px solid $color2;
+        color: $color2;
+    }
+    p{
+        color: $color2;  
+    }
+    span{
+        color: $color2; 
+    }
+}
+
+
+}

@@ -1,0 +1,72 @@
+.footer {
+  .box {
+    height: 100vh;
+    width: 100%;
+  }
+  h1 {
+    text-align: $posicion;
+    padding: 50px;
+  }
+  h1::after {
+    content: "";
+    background: $color1;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 10px auto 50px;
+    text-align: $posicion;
+    left: 170px;
+  }
+  .row {
+    .contact-form {
+      padding: 15px;
+
+      .form-control {
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+      }
+      ::placeholder {
+        font-size: 17px;
+      }
+      button {
+        border: none;
+        background: $color1;
+        box-shadow: none;
+        border-radius: 0;
+      }
+    }
+  }
+  .contact-info {
+    .follow {
+      background: $color2;
+      padding: 8px;
+      margin: 15px;
+    }
+    .fa {
+      margin: 10px;
+      font-size: 20px;
+      color: $color1;
+      font-weight: bold;
+      padding-right: 20px;
+    }
+    span {
+      font-size: 14px;
+    }
+    
+  }
+  .row {
+    .copy {
+        text-align: center;
+        font-size: 14px;
+        .fa-heart-o {
+          color: red;
+          font-size: 17px;
+        }
+      }
+      hr {
+        margin-top: 10px;
+        margin-bottom:50px;
+      }
+  }
+}
